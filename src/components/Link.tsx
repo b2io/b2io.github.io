@@ -18,11 +18,11 @@ export const Link: FC<LinkProps> = ({ href, ...props }) => {
   const isInternal = href.startsWith('/');
 
   return isInternal ? (
-    <Anchor href={href} {...props} />
-  ) : (
     <NextLink href={href} passHref>
       <Anchor {...props} />
     </NextLink>
+  ) : (
+    <Anchor href={href} {...props} />
   );
 };
 

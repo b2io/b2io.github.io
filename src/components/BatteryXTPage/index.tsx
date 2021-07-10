@@ -1,11 +1,17 @@
 import type { FC } from 'react';
 
-import { Layout } from '~/components';
+import { Heading, Layout, Text } from '~/components';
 
 export const BatteryXTPage: FC = () => {
   return (
-    <Layout title="BatteryXT">
-      <h1>hello from the batteryxt page</h1>
+    <Layout title="Battery XT">
+      <Heading as="h1" variant="h1">
+        <Text as="small" variant="h3">
+          DNV•GL
+        </Text>
+        <br />
+        Battery XT
+      </Heading>
     </Layout>
   );
 };

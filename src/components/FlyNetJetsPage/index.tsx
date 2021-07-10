@@ -2,15 +2,15 @@ import type { FC } from 'react';
 
 import { Heading, Layout, Text } from '~/components';
 
-export const ColorSnapVisualizerPage: FC = () => {
+export const FlyNetJetsPage: FC = () => {
   return (
-    <Layout title="ColorSnap Visualizer">
+    <Layout title="Fly NetJets">
       <Heading as="h1" variant="h1">
         <Text as="small" variant="h3">
-          Sherwin-Williams
+          NetJets
         </Text>
         <br />
-        ColorSnap<sup>&reg;</sup> Visualizer
+        Fly NetJets
       </Heading>
     </Layout>
   );
